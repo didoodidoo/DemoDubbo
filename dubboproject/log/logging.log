@@ -1,0 +1,18 @@
+2019-08-14 15:20:59.386  INFO 3380 --- [restartedMain] c.c.d.DubboProjectApplication            : Starting DubboProjectApplication on DESKTOP-3CISPMC with PID 3380 (E:\git\DemoDubbo\dubboproject\target\classes started by DELL in E:\git\DemoDubbo\dubboproject)
+2019-08-14 15:20:59.389  INFO 3380 --- [restartedMain] c.c.d.DubboProjectApplication            : No active profile set, falling back to default profiles: default
+2019-08-14 15:20:59.433  INFO 3380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-14 15:20:59.433  INFO 3380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-14 15:21:00.019  INFO 3380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-14 15:21:00.025  INFO 3380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-14 15:21:00.042  INFO 3380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-08-14 15:21:00.142  WARN 3380 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.code.dubboproject]' package. Please check your configuration.
+2019-08-14 15:21:00.312  INFO 3380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15e4c442] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 15:21:00.611  INFO 3380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2019-08-14 15:21:00.630  INFO 3380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-14 15:21:00.631  INFO 3380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-14 15:21:00.738  INFO 3380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-14 15:21:00.738  INFO 3380 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1304 ms
+2019-08-14 15:21:00.951  INFO 3380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-14 15:21:01.573  INFO 3380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-14 15:21:01.637  INFO 3380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2019-08-14 15:21:01.640  INFO 3380 --- [restartedMain] c.c.d.DubboProjectApplication            : Started DubboProjectApplication in 2.601 seconds (JVM running for 3.634)
