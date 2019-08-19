@@ -18,4 +18,9 @@ public class UserServiceImpl implements IUserService {
             return 0;
         return 1;
     }
+
+    @Override
+    public int getUserNum() {
+        return 0;
+    }
 }
