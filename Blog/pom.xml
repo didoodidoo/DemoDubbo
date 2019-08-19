@@ -35,12 +35,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		
+		
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.58</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
 			<version>2.6.2</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>com.alibaba.spring.boot</groupId>
 			<artifactId>dubbo-spring-boot-starter</artifactId>
