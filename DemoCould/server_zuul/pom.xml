@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.code</groupId>
-    <artifactId>server_eureka</artifactId>
+    <artifactId>server_zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>server_eureka</name>
+    <name>server_zuul</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -26,9 +26,14 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!-- zuul 依赖 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -36,6 +41,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <dependencyManagement>
         <dependencies>

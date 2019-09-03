@@ -13,4 +13,11 @@ public class IndexController {
         return "say: service_user";
     }
 
+    @ResponseBody
+    @RequestMapping("/index")
+    public String index() {
+        System.out.println("Zuul proxy");
+        return "This is service_user";
+    }
+
 }

@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comsumer_demo" />
+        <module name="demo_config_client" />
         <module name="DemoCould" />
+        <module name="server_config" />
         <module name="server_eureka" />
+        <module name="server_zuul" />
         <module name="service_user" />
       </profile>
     </annotationProcessing>
