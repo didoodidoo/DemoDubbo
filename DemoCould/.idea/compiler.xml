@@ -11,9 +11,13 @@
         <module name="DemoCould" />
         <module name="server_config" />
         <module name="server_eureka" />
+        <module name="server_zipkin" />
         <module name="server_zuul" />
         <module name="service_user" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="server_zipkin" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
